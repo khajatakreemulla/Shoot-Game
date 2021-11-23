@@ -23,7 +23,8 @@ function startGame() {
 // Functional JavaScript Code For Shooting which Ultimately decresae the player healt and Give the score to the players
 
 function shoot() {
-
+  var audio = new Audio('1.mp3');
+  audio.play()
   // Javascript code for getting some random values to use it for decresing health
 
   var player1fire = Math.floor(Math.random() * 5);
